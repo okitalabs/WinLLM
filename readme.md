@@ -11,7 +11,7 @@ WindowsにWSLをインストールし、llama-cpp-pythonのサーバをDockerで
 ### 2. [Python/Jupyter/OpenAI編](https://github.com/cellhone/WinLLM/tree/main/2.python_jupyter_openai)
 WSLにPython環境を構築して、Jupyter LabからOpenAI APIを使用し、llama-cpp-pythonサーバにアクセスするまでの手順。
 
-### 3. LibreChat編
+### 3. [LibreChat編](https://github.com/okitalabs/WinLLM/tree/main/3.librechat)
 Chat UIでローカルChatGPTっぽい環境を構築する。UIは[LibreChat](https://github.com/danny-avila/LibreChat)を
 使用し、llama-cpp-pythonサーバのLLMに接続する手順。
 
