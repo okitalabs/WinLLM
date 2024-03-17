@@ -272,6 +272,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
 - `CPU buffer size =  3891.24 MiB`が主な使用メモリ量
 - `AVX = 1 | AVX_VNNI = 0 | AVX2 = 1 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | MATMUL_INT8 = 0 |`  
 は使用しているCPU拡張命令（XeonだとAVX512が有効になる）
+
 <hr>
 
 ## LLMの動作確認
