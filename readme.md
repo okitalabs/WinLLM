@@ -14,7 +14,7 @@ WSLでGPU（NVidia）を使うためのインストール手順
 ## 2. [Python/Jupyter/OpenAI編](2.python_jupyter_openai)
 WSLにPython環境を構築して、Jupyter LabからOpenAI APIを使用し、llama-cpp-pythonサーバにアクセスするまでの手順。
 
-### [2.1 llama-cpp-pytho直起動編](2.python_jupyter_openai/2.1.llama-cpp-python.md)
+### 2.1 [llama-cpp-pytho直起動編](2.python_jupyter_openai/2.1.llama-cpp-python.md)
 Dockerを使わずに、llama-cpp-pythonをWSLから直接起動するための手順。
 
 ## 3. [LibreChat編](3.librechat)
