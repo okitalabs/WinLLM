@@ -7,7 +7,7 @@ UIは[LibreChat](https://github.com/danny-avila/LibreChat)を使用し、llama-c
 ## はじめに
 - [LibreChat](https://github.com/danny-avila/LibreChat)は、ChatGPTに似たWeb UIの実装。
 - かなり多機能ため、シンプルにllama-cpp-pythonサーバと接続するための手順。
-- [WSL/llama-cpp-python編](https://github.com/cellhone/WinLLM/tree/main/1.WSL_llamacpp)で、WSL、llama-cpp-pythonの環境が構築済みであること
+- [WSL/llama-cpp-python編](../1.WSL_llamacpp)で、WSL、llama-cpp-pythonの環境が構築済みであること
 
 
 ## LibeChat
