@@ -8,7 +8,7 @@ PCは、Winddows10、Core i5、メモリ16GB、空きストレージ 30GB以上�
 ## 1. [WSL/llama-cpp-python編](1.WSL_llamacpp)
 WindowsにWSLをインストールし、llama-cpp-pythonのサーバをDockerで動かすまでの手順。  
 
-### [1.1 WSL GPU編](1.WSL_llamacpp/1.1.WSL_GPU.md)
+### 1.1 WSL GPU編
 WSLでNVIDIA GPUを使うためのインストール手順。
 
 ## 2. [Python/Jupyter/OpenAI編](2.python_jupyter_openai)
