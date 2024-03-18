@@ -180,7 +180,7 @@ docker exec -it vicuna /bin/bash ## コンテナに入る
 
 ## Dockerコンテナ内で実行
 cd /home/model ## モデルの保存先
-python -m llama_cpp.server --model vicuna-7b-v1.5.Q4_K_M.gguf --chat_format vicuna --port 8080 --host 127.0.0.1
+python -m llama_cpp.server --model vicuna-7b-v1.5.Q4_K_M.gguf --chat_format vicuna --port 8080 --host 0.0.0.0
 ```
 
 #### 起動メッセージ
@@ -386,7 +386,7 @@ docker exec -it vicuna /bin/bash ## コンテナに入る
 
 ## Dockerコンテナ内で実行
 cd /home/model ## モデルの保存先
-python -m llama_cpp.server --model calm2-7b-chat.Q4_K_M.gguf --port 8080 --host 127.0.0.1 
+python -m llama_cpp.server --model calm2-7b-chat.Q4_K_M.gguf --port 8080 --host 0.0.0.0 
 ```
 動作確認  
 なんか上手くいているっぽいから大丈夫かな... ( •ᴗ• ;)
@@ -410,7 +410,7 @@ docker exec -it vicuna /bin/bash ## コンテナに入る
 
 ## Dockerコンテナ内で実行
 cd /home/model ## モデルの保存先
-python -m llama_cpp.server --model ELYZA-japanese-Llama-2-7b-fast-instruct-q4_K_M.gguf --chat_format llama-2 --port 8080 --host 127.0.0.1
+python -m llama_cpp.server --model ELYZA-japanese-Llama-2-7b-fast-instruct-q4_K_M.gguf --chat_format llama-2 --port 8080 --host 0.0.0.0
 ```
 
 
@@ -478,11 +478,11 @@ docker run -d --cap-add SYS_RESOURCE -p 8080:8080 -e USE_MLOCK=0 -e MODEL=/home/
 docker exec -it vicuna /bin/bash
 
 ## サーバの起動
-python -m llama_cpp.server --model vicuna-7b-v1.5.Q4_K_M.gguf --chat_format vicuna --port 8080 --host 127.0.0.1 ## Vicuna
+python -m llama_cpp.server --model vicuna-7b-v1.5.Q4_K_M.gguf --chat_format vicuna --port 8080 --host 0.0.0.0 ## Vicuna
 
-python -m llama_cpp.server --model calm2-7b-chat.Q4_K_M.gguf --port 8080 --host 127.0.0.1 ## Calm2
+python -m llama_cpp.server --model calm2-7b-chat.Q4_K_M.gguf --port 8080 --host 0.0.0.0 ## Calm2
 
-python -m llama_cpp.server --model ELYZA-japanese-Llama-2-7b-fast-instruct-q4_K_M.gguf --chat_format llama-2 --port 8080 --host 127.0.0.1 ## Elyza
+python -m llama_cpp.server --model ELYZA-japanese-Llama-2-7b-fast-instruct-q4_K_M.gguf --chat_format llama-2 --port 8080 --host 0.0.0.0 ## Elyza
 
 ## 動作確認
 curl -s -XPOST -H 'Content-Type: application/json' localhost:8080/v1/chat/completions -d '{"messages": [{"role": "user", "content": "東京の名所は？"}]}'
