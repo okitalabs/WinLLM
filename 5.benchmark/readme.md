@@ -18,17 +18,17 @@ LLMの実行速度の比較一覧。
 ## ベンチマーク一覧
 |CPU|GHz|Core|GPU|OS|Token/s|Comment|
 |:----|----:|----:|:----|:----|----:|:----|
-|Core i7-1265U|1.8/4.8|10|None|WSL2|4.52 |Z Book G9|
+|Core i7-1265U|1.8/4.8|8/2|None|WSL2|4.52 |Z Book G9|
 |Core i7-7820HK|2.9/3.9|4|None|WSL2|5.27 |OMEN X 17ap|
 |Core i7-7820HK|2.9/3.9|4|GTX-1080 mobile/8GB|WSL2|33.93 |OMEN X 17ap|
 |Xeon 6128 x2|3.4/3.7|v12|None|Ubuntu|6.54 |KVM仮想化|
 |Xeon 6128 x2|3.4/3.7|v12|P40/24GB|Ubuntu|39.55 |KVM仮想化|
 |Xeon 6448Y x2|2.1/4.1|32x2|None|Ubuntu|10.18 |メモリが12スロット384GB|
-|Xeon 6448Y x3|2.1/4.1|32x3|A100/40GB|Ubuntu|121.76 |メモリが12スロット384GB|
-|Xeon 6448Y x4|2.1/4.1|32x4|None|Ubuntu|5.30 |メモリが4スロット128GB|
-|Xeon 6448Y x5|2.1/4.1|32x5|L40s/48GB|Ubuntu|115.86 |メモリが4スロット128GB|
-|M1 Max|3.2|10|None|macOS|16.70 |M1 Mac|
-|M1 Max|3.2|10|GPU 32core, Neural 16core|macOS|46.30 |M1 Mac|
+|Xeon 6448Y x2|2.1/4.1|32x2|A100/40GB|Ubuntu|121.76 |メモリが12スロット384GB|
+|Xeon 6448Y x2|2.1/4.1|32x2|None|Ubuntu|5.30 |メモリが4スロット128GB|
+|Xeon 6448Y x2|2.1/4.1|32x2|L40s/48GB|Ubuntu|115.86 |メモリが4スロット128GB|
+|M1 Max|3.2|8/2|None|macOS|16.70 |M1 Mac|
+|M1 Max|3.2|8/2|GPU 32core, Neural 16core|macOS|46.30 |M1 Mac|
 
 <hr>
 
