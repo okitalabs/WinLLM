@@ -1,7 +1,7 @@
 # WindowsでLLM
 # Streamlit Chat編
 
-PythonのWebアプリフレームワークである、Streamlitを使って、簡単なチャットWebアプリを作成する。LLMはOpenAI APIでllama-cpp.server問い合わせる。
+PythonのWebアプリフレームワークである、Streamlitを使って、簡単なチャットWebアプリを作成する。LLMはOpenAI APIで、llama-cpp-pythonサーバに問い合わせる。
 
 <img src="img/simplechat.gif">
 
@@ -222,6 +222,7 @@ if prompt := st.chat_input('何か質問してください'):
     print(st.session_state.messages)
 ```
 
+チャットは過去の履歴を含めて問い合わせるため、やり取りが長くなるとその分どんどん遅くなる。WSLの場合、2〜3回くらいのQAが限界かも... (˘-ω-˘ ).｡oஇ
 
 <hr>
 
