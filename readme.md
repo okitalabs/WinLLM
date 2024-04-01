@@ -21,6 +21,9 @@ Dockerを使わずに、llama-cpp-pythonをWSLから直接起動するための�
 Chat UIでローカルChatGPTっぽい環境を構築する。UIは[LibreChat](https://github.com/danny-avila/LibreChat)を
 使用し、llama-cpp-pythonサーバのLLMに接続する手順。
 
+## 4. [Streamlit Chat編](4.streamlitchat)
+PythonのWebアプリフレームワークである、Streamlitを使って、簡単なチャットWebアプリを作成する。LLMはOpenAI APIで、llama-cpp-pythonサーバに問い合わせる。
+
 <hr>
 
 LLM実行委員会
