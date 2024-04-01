@@ -24,7 +24,7 @@ Chat UIでローカルChatGPTっぽい環境を構築する。UIは[LibreChat](h
 ## 4. [Streamlit Chat編](4.streamlitchat)
 PythonのWebアプリフレームワークである、Streamlitを使って、簡単なチャットWebアプリを作成する。LLMはOpenAI APIで、llama-cpp-pythonサーバに問い合わせる。
 
-## 5. [Benchmark](5.benchmark)
+## 5. [Benchmark編](5.benchmark)
 LLMの実行速度の比較一覧。
 4bit量子化(Q4_K_M)のモデルを、llama-cppで実行した時のToken生成速度を計測。
 
